@@ -2,7 +2,7 @@ body {
    font-family: "OpenSans-Regular";
  }
  .welcome {
-   background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+   background-image: url(../images/banner-bg.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    position: relative;
@@ -30,7 +30,7 @@ body {
  }
  
  .noemi-logo {
-   background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg");
+   background-image: url(../svg/noemi-logo.svg);
    background-repeat: no-repeat;
    background-size: cover;
    width: 180px;
@@ -86,12 +86,12 @@ body {
  }
  
  @font-face {
-   font-family: "OpenSans-Bold";
-   src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);
+   font-family:"OpenSans-Bold";
+   src: url(../fonts/OpenSans-Bold.woff);
  }
  @font-face {
    font-family: "OpenSans-Regular";
-   src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+   src: url(../fonts/OpenSans-Regular.woff);
  }
  
  .content {
@@ -245,7 +245,7 @@ body {
  .news-search::after {
    content: "";
    position: absolute;
-   background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/search.svg");
+   background-image: url(../svg/search.svg);
    background-repeat: no-repeat;
    background-color: #b59f5b;
    width: 48px;
@@ -371,7 +371,7 @@ body {
  
  .icon-twitter {
    display: block;
-   background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg);
+   background-image: url(../svg/004-twitter.svg);
    background-repeat: no-repeat;
    background-size: cover;
    width: 20px;
@@ -379,7 +379,7 @@ body {
  }
  .icon-facebook {
    display: block;
-   background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg);
+   background-image: url(../svg/002-facebook-logo.svg);
    background-repeat: no-repeat;
    background-size: cover;
    width: 20px;
@@ -387,7 +387,7 @@ body {
  }
  .icon-tumblr {
    display: block;
-   background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg);
+   background-image: url(../svg/003-tumblr.svg);
    background-repeat: no-repeat;
    background-size: cover;
    width: 20px;
@@ -395,7 +395,7 @@ body {
  }
  .icon-instagram {
    display: block;
-   background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg);
+   background-image: url(../svg/005-instagram.svg);
    background-repeat: no-repeat;
    background-size: cover;
    width: 20px;
@@ -403,7 +403,7 @@ body {
  }
  .icon-pinterest {
    display: block;
-   background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg);
+   background-image: url(../svg/001-pinterest.svg);
    background-repeat: no-repeat;
    background-size: cover;
    width: 20px;
